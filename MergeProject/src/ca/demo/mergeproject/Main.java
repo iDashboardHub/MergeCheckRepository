@@ -8,9 +8,10 @@ public class Main {
 	}
 
 	private static void displayGreeting(){
-		int data[]={0,4,42};
+		int data[]={-1,0,4,42,100};
 		for(int i:data){
 	System.out.println("Hello::"+data[i]);
+	System.out.println("Hello::"+i);
 		}
 	}
 }
