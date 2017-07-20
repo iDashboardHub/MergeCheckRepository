@@ -8,7 +8,21 @@ public class Main {
 	}
 
 	private static void displayGreeting(){
+
 		
 	System.out.println("Old");
-	}
+	
+
+
+		int data[]={-1,0,4,42,100};
+		for(int i:data){
+	System.out.println("Hello::"+data[i]);
+	System.out.println("Hello::"+i);
+		}
+		System.out.println("Hello");
+		System.out.println("iDashboard User1");
+		System.out.println("iDashboard User1");
+
+		}
+
 }
