@@ -11,6 +11,7 @@ public class Main {
 		int data[]={0,4,42};
 		for(int i:data){
 	System.out.println("Hello::"+data[i]);
+			System.out.println("Hello::"+i);
 		}
 	}
 }
